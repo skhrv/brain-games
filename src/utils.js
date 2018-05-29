@@ -8,5 +8,17 @@ export const greetings = (rules = '') => {
   return username;
 };
 
+
+export const checkAnswer = (username, userAnswer, correctAnswer) => {
+  if (userAnswer === correctAnswer) {
+    console.log('Correct!');
+    return true;
+  }
+
+  console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+  console.log(`Let's try again, ${username}!`);
+  return false;
+};
+
 export const getRandomNum = (min = 1, max = 100) => Math.floor(Math.random() * ((max - min) + min));
 

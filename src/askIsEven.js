@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greetings, getRandomNum } from './utils';
+import { greetings, getRandomNum, checkAnswer } from './utils';
 
 
 const askIsEven = () => {
@@ -16,15 +16,14 @@ const askIsEven = () => {
     const isEven = randomNum % 2 === 0;
     const correctAnswer = isEven ? 'yes' : 'no';
     const userAnswer = readlineSync.question('Your answer: ');
-    
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
+
+    const result = checkAnswer(username, userAnswer, correctAnswer);
+    if (result) {
       return iter(count + 1);
     }
-    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-    console.log(`Let's try again, ${username}!`);
     return false;
   };
   return iter();
 };
+
 export default askIsEven;
