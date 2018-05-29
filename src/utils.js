@@ -8,7 +8,6 @@ export const greetings = (rules = '') => {
   return username;
 };
 
-
 export const checkAnswer = (username, userAnswer, correctAnswer) => {
   if (userAnswer === correctAnswer) {
     console.log('Correct!');
