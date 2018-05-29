@@ -1,12 +1,5 @@
 #!/usr/bin/env node
 
-import askUsername from '..';
-import askIsEven from '../askIsEven';
+import { startBrainEven } from '..';
 
-console.log('Welcome to The Brain Games');
-console.log('Answer "yes" if number even otherwise answer "no".');
-
-const username = askUsername();
-
-askIsEven(username);
-
+startBrainEven();
