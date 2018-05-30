@@ -2,14 +2,14 @@ import readlineSync from 'readline-sync';
 import { greetings, getRandomNum, checkAnswer } from './utils';
 
 const rule = 'Answer "yes" if number even otherwise answer "no".';
-const numberOfCorrectAnswer = 3;
+const numberOfCorrectAnswers = 3;
 const isEven = question => (question % 2 === 0 ? 'yes' : 'no');
 
 const askIsEven = () => {
   const username = greetings(rule);
 
   const iter = (count = 0) => {
-    if (count === numberOfCorrectAnswer) {
+    if (count === numberOfCorrectAnswers) {
       console.log(`Congratulations, ${username}!`);
       return undefined;
     }
