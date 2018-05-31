@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { greetings, getRandomNum, checkAnswer } from './utils';
+import { greetings, getRandomNum, checkAnswer } from '../utils';
 
 const rule = 'Answer "yes" if number even otherwise answer "no".';
 const numberOfCorrectAnswers = 3;
