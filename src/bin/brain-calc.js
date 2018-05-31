@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import askResultOfExpression from '../games/askResultOfExpression';
+import startBrainCalc from '../games/brain-calc';
 
-askResultOfExpression();
+startBrainCalc();

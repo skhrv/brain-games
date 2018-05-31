@@ -1,11 +1,10 @@
+import { car, cdr } from 'hexlet-pairs';
 import readlineSync from 'readline-sync';
-import { greetings, getRandomNum, checkAnswer } from '../utils';
+import { checkAnswer, greetings } from './utils';
 
-const rule = 'Answer "yes" if number even otherwise answer "no".';
 const numberOfCorrectAnswers = 3;
-const isEven = question => (question % 2 === 0);
 
-const askIsEven = () => {
+export default (rule, pair) => {
   const username = greetings(rule);
 
   const iter = (count) => {
@@ -13,16 +12,15 @@ const askIsEven = () => {
       console.log(`Congratulations, ${username}!`);
       return;
     }
-    const question = getRandomNum();
+    const game = pair();
+    const question = car(game);
     console.log(`Question: ${question}`);
-    const correctAnswer = isEven(question) ? 'yes' : 'no';
+    const correctAnswer = cdr(game);
     const userAnswer = readlineSync.question('Your answer: ');
     const result = checkAnswer(username, userAnswer, correctAnswer);
     if (result) {
-      return iter(count + 1);
+      iter(count + 1);
     }
   };
   return iter(0);
 };
-
-export default askIsEven;

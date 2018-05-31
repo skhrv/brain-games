@@ -1,6 +1,6 @@
 {
   "name": "brain-games-skhrv",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Set of console mini games",
   "main": "index.js",
   "bin": {
@@ -30,6 +30,7 @@
     "eslint-plugin-import": "^2.12.0"
   },
   "dependencies": {
+    "hexlet-pairs": "^1.0.7",
     "readline-sync": "^1.4.9"
   }
 }
