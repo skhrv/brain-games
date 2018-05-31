@@ -1,11 +1,13 @@
 {
   "name": "brain-games-skhrv",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Set of console mini games",
   "main": "index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-gdc": "dist/bin/brain-gdc.js"
   },
   "files": [
     "dist"
