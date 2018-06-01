@@ -28,9 +28,10 @@ Congratulations, John!
 ```
 npm install brain-games-skhrv -g
 ```
-## Игры
+## Список игр:
 
 ### brain-even
+запуск игры:
 ```
 brain-even
 ```
@@ -43,6 +44,7 @@ Correct!
 
 
 ### brain-calc
+запуск игры:
 ```
 brain-calc
 ```
@@ -53,6 +55,7 @@ Your answer: 14
 Correct!
 ```
 ### brain-gcd
+запуск игры:
 ```
 brain-gcd
 ```
@@ -64,6 +67,7 @@ Correct!
 ```
 
 ### brain-balance
+запуск игры:
 ```
 brain-balance
 ```
@@ -74,6 +78,7 @@ Your answer: 233
 Correct!
 ```
 ### brain-progression
+запуск игры:
 ```
 brain-progression
 ```
@@ -83,3 +88,13 @@ Question: 5 7 9 11 13 .. 17 19 21 23
 Your answer: 15
 Correct!
 ```
+### brain-prime
+запуск игры:
+```
+brain-prime
+```
+Is this number prime? 
+```
+Question: 7
+Your answer: yes
+Correct!
