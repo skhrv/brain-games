@@ -4,7 +4,7 @@
 ## Описание
 В рамках проекта необходимо было реализовать набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют "Brain Games". Для победы в игре необходимо верно ответить на 3 вопроса подряд.
 
-### Пример вывода в консоль игры brain-progression
+#### Пример вывода в консоль игры brain-progression
 ```
 Welcome to the Brain Game!
 What number is missing in this progression?
@@ -28,9 +28,9 @@ Congratulations, John!
 ```
 npm install brain-games-skhrv -g
 ```
-# Игры
+## Игры
 
-## brain-even
+### brain-even
 ```
 brain-even
 ```
@@ -42,7 +42,7 @@ Correct!
 ```
 
 
-## brain-calc
+### brain-calc
 ```
 brain-calc
 ```
@@ -52,7 +52,7 @@ Question: 4 + 10
 Your answer: 14
 Correct!
 ```
-## brain-gcd
+### brain-gcd
 ```
 brain-gcd
 ```
@@ -63,7 +63,7 @@ Your answer: 25
 Correct!
 ```
 
-## brain-balance
+### brain-balance
 ```
 brain-balance
 ```
@@ -73,7 +73,7 @@ Question: 215
 Your answer: 233
 Correct!
 ```
-## brain-progression
+### brain-progression
 ```
 brain-progression
 ```
