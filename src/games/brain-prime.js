@@ -5,11 +5,12 @@ import startGame from '..';
 const rule = 'Is this number prime?';
 
 const isPrime = (num) => {
+  if (num < 2) return false;
+
   const iter = (div) => {
     if (div === num) {
       return true;
-    }
-    if (num % div === 0) {
+    } else if (num % div === 0) {
       return false;
     }
     return iter(div + 1);
