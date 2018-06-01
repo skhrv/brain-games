@@ -28,5 +28,5 @@ const getQandA = () => {
   return cons(question, answer);
 };
 
-startGame(rule, getQandA);
+export default () => startGame(rule, getQandA);
 
