@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 
 const numberOfCorrectAnswers = 3;
 
-export default (rule, pair) => {
+export default (rule, gameData) => {
   console.log('Welcome to The Brain Games');
   console.log(rule);
   const username = readlineSync.question('May I have your name? ');
@@ -14,7 +14,7 @@ export default (rule, pair) => {
       console.log(`Congratulations, ${username}!`);
       return;
     }
-    const game = pair();
+    const game = gameData();
     const question = car(game);
     console.log(`Question: ${question}`);
     const correctAnswer = cdr(game);
