@@ -8,7 +8,7 @@ const isPrime = (num) => {
   if (num < 2) return false;
 
   const iter = (div) => {
-    if (div === num) {
+    if (div > num / 2) {
       return true;
     } else if (num % div === 0) {
       return false;
