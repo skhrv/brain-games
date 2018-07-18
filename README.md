@@ -1,5 +1,5 @@
 # Учебный проект "Brain games" 
-[![Maintainability](https://api.codeclimate.com/v1/badges/398175ef41ee4165bd16/maintainability)](https://codeclimate.com/github/skhrv/project-lvl1-s284/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/398175ef41ee4165bd16/test_coverage)](https://codeclimate.com/github/skhrv/project-lvl1-s284/test_coverage) [![Build Status](https://travis-ci.org/skhrv/project-lvl1-s284.svg?branch=master)](https://travis-ci.org/skhrv/project-lvl1-s284)
+[![Maintainability](https://api.codeclimate.com/v1/badges/398175ef41ee4165bd16/maintainability)](https://codeclimate.com/github/skhrv/project-lvl1-s284/maintainability) [![Build Status](https://travis-ci.org/skhrv/project-lvl1-s284.svg?branch=master)](https://travis-ci.org/skhrv/project-lvl1-s284)
 
 ## Описание
 В рамках проекта необходимо было реализовать набор мини-игр, запускаемых из консоли. Эти игры похожи на то, что обычно называют "Brain Games". Для победы в игре необходимо верно ответить на 3 вопроса подряд.
